@@ -1,5 +1,5 @@
 print("Hello World")
-def labels = jenkins.getLabels()
+def labels=jenkins.getLabels()
 labels.each {
    println "${it.displayName}"
 }
