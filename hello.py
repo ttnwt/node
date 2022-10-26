@@ -8,4 +8,4 @@ def node_exists(self, name):
         self.get_node_info(name)
         return True
     except JenkinsException:
-    return False
+        return False
