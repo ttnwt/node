@@ -1,5 +1,6 @@
 print("Hello World")
-def labels=jenkins.getLabels()
-labels.each {
-   println "${it.displayName}"
+def jenkins = Jenkins.instance
+def computers = jenkins.computers
+computers.each {
+   println "${it.displayName} ${it.hostName}"
 }
