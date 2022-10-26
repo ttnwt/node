@@ -23,7 +23,6 @@ import urllib
 import base64
 import traceback
 import json
-import httplib
 
 
 NODE_INFO   = 'computer/%(name)s/api/json?depth=0'
