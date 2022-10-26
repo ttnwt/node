@@ -1,5 +1,6 @@
 print("Hello World")
-...
+
+'''
 Python API for Jenkins
 
 Examples::
