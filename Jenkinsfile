@@ -8,7 +8,7 @@ pipeline {
         }
 	stage("hello") {
             steps {
-                sh 'node.groovy'
+                sh 'hello.py'
             }
         }
     }
