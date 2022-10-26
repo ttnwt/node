@@ -19,7 +19,6 @@ Examples::
 '''
 
 import sys
-import urllib2
 import urllib
 import base64
 import traceback
