@@ -1,7 +1,7 @@
 print("Hello World")
 
 #Python API for Jenkins
-Examples::
+
     j = jenkins.Jenkins('http://3.89.99.228:8080/', 'admin', 'abc123')
     j.get_jobs()
     j.create_job('empty', jenkins.EMPTY_CONFIG_XML)
